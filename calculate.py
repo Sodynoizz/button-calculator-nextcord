@@ -74,8 +74,6 @@ class MyButton(nextcord.ui.Button):
 class Calculator(commands.Cog, name="Calculation"):
     """Calculation Commands"""
 
-    COG_EMOJI = "🔢"
-
     def __init__(self, bot):
         self.bot = bot
 
